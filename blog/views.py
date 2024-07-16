@@ -20,9 +20,9 @@ class PostList(generic.ListView):
 
 def post_detail(request, slug):
     """
-    Renders an individual post and gives an unser the ability to comment
-    Also allows a registered user to edit and delets his own comments
-    
+    Renders an individual post and gives an user the ability to comment
+    Also allows a registered user to edit and delete his own comments
+
     Display an individual :model:`blog.Post`.
 
     **Context**
